@@ -1,0 +1,43 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+body{
+    display: flex;
+    justify-content: center;
+    background: #FAF5F0;
+}
+.content{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-inline-size: clamp(45ch,66ch,75ch);
+}
+h2{
+    color: #025259;
+}
+h3{
+    color: #D97E4D;
+}
+h2, h3, .description{
+    text-align: center;
+}
+p{
+    text-indent: 25px;
+    color:#674E2A;
+}
+.summary{
+    border: 5px solid #025259;
+    border-radius: 5px;
+    padding: 0 1em 1em 1em;
+}
+.video{
+    display: flex;
+    justify-content: center;
+}
+.commentary{
+    margin-top: 2em;
+    border: 5px solid #D97E4D;
+    border-radius: 5px;
+    padding: 0 1em 0 1em;
+}
