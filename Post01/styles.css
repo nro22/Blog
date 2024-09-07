@@ -15,6 +15,7 @@ body{
     flex-direction: column;
     align-items: center;
     max-inline-size: clamp(45ch,66ch,75ch);
+    margin-bottom: 2em;
 }
 h2{
     color: #025259;
@@ -33,6 +34,7 @@ p{
     border: 5px solid #025259;
     border-radius: 5px;
     padding: 0 1em 1em 1em;
+    box-shadow: 6px 10px 5px rgba(103, 78, 42, .8);
 }
 .video{
     display: flex;
@@ -43,4 +45,5 @@ p{
     border: 5px solid #D97E4D;
     border-radius: 5px;
     padding: 0 1em 0 1em;
+    box-shadow: 10px 10px 5px rgba(103, 78, 42, .8);
 }
