@@ -1,0 +1,79 @@
+/*
+Reset rules from Josh W Comeau (joshwcomeau.com)
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+/*
+my code:
+*/
+html{
+    background-color: #FAF5EF;
+    color: #674E2A;
+}
+h1, h3{
+    color: #FF6613;
+}
+h2{
+    color:#270D55;
+}
+body{
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.container{
+    max-inline-size: clamp(45ch, 66ch, 75ch); 
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3{
+    margin-top: .5em;
+}
+p{
+    text-indent: 25px;
+    font-size: 1.1rem;
+}
+.section{
+    margin-top: 2em;
+}
+label{
+    margin-top: .5em;
+    margin-bottom: -.5em;
+}
+iframe{
+    margin-top: 1em;
+}
+.aside{
+    color:#FF6613;
+}
+.clip--two{
+    color: #270D55;
+}
+.anecdote{
+    color:#FF6613;
+}
