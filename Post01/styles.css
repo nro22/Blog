@@ -34,7 +34,7 @@ p{
     border: 5px solid #025259;
     border-radius: 5px;
     padding: 0 1em 1em 1em;
-    box-shadow: 6px 10px 5px rgba(103, 78, 42, .8);
+    box-shadow: 10px 10px 5px rgba(103, 78, 42, .8);
 }
 .video{
     display: flex;
