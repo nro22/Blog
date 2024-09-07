@@ -5,6 +5,9 @@ body{
     display: flex;
     justify-content: center;
     background: #FAF5F0;
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
 }
 .content{
     width: 80%;
