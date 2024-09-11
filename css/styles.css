@@ -30,14 +30,38 @@ body{
     justify-content: space-around;
 }
 .container{
+    width: 100%;
+    max-width: 990px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
     margin-top: 1em;
+}
+.home{
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .6);
+    margin-left: .5em;
+}
+.home-img{
+    margin: 5px 4px 2px 4px;
 }
 h1{
     padding: .5em;
     border-radius: 1.5rem;
     text-align: center;
+}
+.info{
+    border: 0px;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, .6);
+    margin-right: .5em;
+}
+.info-img{
+    margin: 5px 4px 2px 4px;
+}
+.info:hover{
+
 }
 h2{
     text-align: center;

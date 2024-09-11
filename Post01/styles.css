@@ -18,13 +18,22 @@ body{
 }
 .container{
     display: flex;
+    justify-content: space-between;
     align-items: center;
     width:100%
+}
+a{
+    margin-left: .5em;
+}
+.info{
+    background-color: transparent;
+    border: 0px;
+    margin-right: .5em;
 }
 /* a{
     width: 40%;
 } */
-.container a, .container h1{
+/* .container a, .container h1{
     margin-right: auto;
 }
 .container a{
@@ -32,7 +41,7 @@ body{
 }
 .container h1{
     padding-left: -28px;
-}
+} */
 img{
     margin: 0 auto;
 }

@@ -33,15 +33,17 @@ html{
 }
 .row{
   display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
-  justify-content: flex-start;
-}
-.row a, .row h1{
-  margin-right: auto;
 }
 .row a{
-  padding-left: -28px;
+  margin-left:.5em;
+}
+.info{
+  background-color: transparent;
+  border: 0px;
+  margin-right: .5em;
 }
 h1, h3{
     color: #FF6613;
