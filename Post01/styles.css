@@ -16,6 +16,26 @@ body{
     max-inline-size: clamp(45ch,66ch,75ch);
     margin-bottom: 2em;
 }
+.container{
+    display: flex;
+    align-items: center;
+    width:100%
+}
+/* a{
+    width: 40%;
+} */
+.container a, .container h1{
+    margin-right: auto;
+}
+.container a{
+    margin-left: .5em;
+}
+.container h1{
+    margin-left: -28px;
+}
+img{
+    margin: 0 auto;
+}
 h2{
     color: #025259;
 }
