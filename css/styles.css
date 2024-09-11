@@ -50,6 +50,14 @@ h2{
     margin-bottom: .5em;
     padding: .8em;
 }
+.card:hover{
+    box-shadow: 0 0 0rem #55fffc,
+                0 0 0rem #55fffc,
+                0 0 .2rem #fff,
+                0 0 0rem #55fffc,
+                0 0 0rem #55fffc,
+                inset 0 0 1.3rem #fff;
+}
 h1,h2,.card{
     background-color: rgba(255, 255, 255, .6);
 }
