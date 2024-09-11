@@ -31,6 +31,18 @@ html{
     background-color: #FAF5EF;
     color: #674E2A;
 }
+.row{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: flex-start;
+}
+.row a, .row h1{
+  margin-right: auto;
+}
+.row a{
+  padding-left: -28px;
+}
 h1, h3{
     color: #FF6613;
 }

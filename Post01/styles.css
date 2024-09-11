@@ -31,7 +31,7 @@ body{
     margin-left: .5em;
 }
 .container h1{
-    margin-left: -28px;
+    padding-left: -28px;
 }
 img{
     margin: 0 auto;
