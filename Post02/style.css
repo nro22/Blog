@@ -13,6 +13,7 @@ body{
     grid-template-columns: 1fr;
     justify-content: center;
     justify-items: center;
+    max-width: 95%;
 }
 header{
     justify-self: stretch;
@@ -32,10 +33,25 @@ header{
     border: 0px;
 }
 .content{
-    display: grid;
-    grid-auto-flow: column;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: auto;
+    gap: 1em;
+}
+.content > *{
+    flex-grow: 1;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    justify-items: center;
+    margin: 0;
+    padding: 0;
 }
 .iframe-short{
     width: 252px;
     height: 450px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
 }
