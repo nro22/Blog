@@ -1,12 +1,29 @@
 *, *::before, *::after {
     box-sizing: border-box;
   }
-
+html{
+    background-color: #F2E8C9;
+}
 body{
     display: flex;
     justify-content: center;
     margin: 0;
-    /* background-color: darkolivegreen; */
+    font-family: "Roboto", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    margin: 1em;
+}
+h1, p{
+    color: #401201;
+}
+h2, h4{
+    color: #3C7DA6;
+}
+h3{
+    color: #735B2F;
+}
+h4{
+    text-align: center;
 }
 .container{
     display: grid;
@@ -32,16 +49,43 @@ header{
     background-color: transparent;
     border: 0px;
 }
+p {
+    width: clamp(45ch, 50%, 75ch);
+    font-size: 1.2rem;
+}
+.wrapper{
+    border: 5px solid #96D2D9;
+    border-radius: 5px;
+    padding: 0 1em 1em 1em;
+    box-shadow: 10px 10px 5px rgba(103, 78, 42, .8);
+    width: 100%;
+}
+.wrapper + .wrapper{
+    margin-top: 2em;
+}
+iframe{
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+}
+.iframe-video{
+    width: 444px;
+    height: 250px;
+}
+.ytp-more-videos-view, .ytp-expand-pause-overlay, .ytp-pause-overlay{
+    display: none;
+}
 .content{
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
-    margin-right: auto;
     gap: 1em;
+    row-gap: 2em;
 }
 .content > *{
     flex-grow: 1;
 }
 .card{
+    flex-grow: 1;
     display: flex;
     justify-content: center;
     justify-content: center;
@@ -50,8 +94,6 @@ header{
     padding: 0;
 }
 .iframe-short{
-    width: 252px;
-    height: 450px;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.5);
+    width: 196px;
+    height: 350px;
 }
