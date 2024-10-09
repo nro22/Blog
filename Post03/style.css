@@ -1,0 +1,14 @@
+ul{
+    list-style: none;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img {
+    width: 100vw; /* Sets the width to 100% of the viewport width */
+    height: auto; /* Maintains the aspect ratio */
+    display: block; /* Removes any default inline spacing */
+    overflow: hidden; /* Ensures no overflow occurs */
+}
