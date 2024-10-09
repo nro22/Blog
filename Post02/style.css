@@ -81,9 +81,6 @@ iframe{
     gap: 1em;
     row-gap: 2em;
 }
-.content > *{
-    flex-grow: 1;
-}
 .card{
     flex-grow: 1;
     display: flex;
