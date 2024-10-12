@@ -1,12 +1,61 @@
 ul{
     list-style: none;
 }
-body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* h1,h2,h3{
+    margin: 0;
+    padding: 0;
+} */
+html{
+    margin: 0;
+    padding: 0;
 }
-img {
+body{
+    background-color: aliceblue;
+    margin: 0;
+    padding: 2rem 2.5% 4rem;
+    height: 100vh;
+}
+.content{
+    max-width: max-content;
+    margin: 0 auto;
+}
+/* BEGINNING OF HEADER STYLES */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+/* header a{
+    margin-left: .5em;
+} */
+header h1{
+    margin: 0;
+}
+header .info{
+    background-color: transparent;
+    border: 0px;
+    /* margin-right: .5em; */
+}
+/* END OF HEADER STYLES */
+
+
+remove padding from all lists and put tabs at beginnings? Put extra padding between list items?
+main{
+    margin: 0 auto;
+    padding: 1rem 2.5% 0;
+}
+main h2,
+main h3{
+    text-align: center;
+    margin: 1rem 0;
+}
+.outermost-list{
+    margin: 0;
+    padding: 1rem 0 0;
+    line-height: 1.6;
+}
+.background-image{
     width: 100vw; /* Sets the width to 100% of the viewport width */
     height: auto; /* Maintains the aspect ratio */
     display: block; /* Removes any default inline spacing */
