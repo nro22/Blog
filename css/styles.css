@@ -56,12 +56,15 @@ h1{
     border-radius: 5px;
     background-color: rgba(255, 255, 255, .6);
     margin-right: .5em;
+    cursor: pointer;
 }
 .info-img{
     margin: 5px 4px 2px 4px;
 }
-.info:hover{
 
+.home:hover,
+.info:hover{
+    background-color: rgba(255, 255, 255, .4);
 }
 h2{
     text-align: center;

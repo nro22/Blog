@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/popup.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
@@ -13,7 +14,7 @@
     <div class="container">
         <a class="home" href="index.html"><img class="home-img" src="./img/home.svg" alt=""></a>
         <h1>My blog project</h1>
-        <button class="info"><img class="info-img"src="./img/info.svg" alt=""></button>
+        <button class="info" id="infoButton"><img class="info-img" src="./img/info.svg" alt=""></button>
     </div>
     <h2>A space for me to capture, comment on, and share content while demostrating web development skills.</h2>
     <div class="row">
@@ -42,5 +43,29 @@
             </div>
         </a>
     </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <div class="popup-header">
+                <h3>About This Blog</h3>
+                <button id="closePopup">Close</button>
+            </div>
+            <p>A personal project with a mobile-first responsive design created and designed by myself from scratch using vanilla HTML, CSS, and a little bit of JavaScript.</p>
+            <p>Background image for home page from Umit Bilut (Instagram handle: umitbu) via unsplash.com</p>
+            <br>
+            <p>Possible future features and improvements include:
+                <ul>
+                    <li>A nav bar and functioning portfolio site as the home page</li>
+                    <li>A disclaimer popup for Post #1</li>
+                    <li>Allow user the option to display desktop version on mobile</li>
+                    <li>Allow user to sort posts by sequential/chronological order</li>
+                    <li>Automate or improve structure/format to allow for new posts to appear on home page (requires backend?)</li>
+                    <li>Allow user to modify font size via a scroll bar</li>
+                    <li>Allow user to change theme to light/dark</li>
+                    <li>Allow user to add comments (requires backend?)</li>
+                </ul><br>
+            <p>After the creation of Posts 0-3, I implemented the use of AI via the Cursor editor with Claude 3.5 Sonnet for rapid deployment of this popup modal.</p>
+        </div>
+    </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>

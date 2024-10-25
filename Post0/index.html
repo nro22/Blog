@@ -7,14 +7,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="popup.css">
     <title>Document</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
         <div class="row">
             <a href="../index.html"><img src="../img/home.svg" alt=""></a>
             <h1>Post #0</h1>
-            <button class="info"><img class="info-img"src="../img/info.svg" alt=""></button>
+            <button class="info" id="infoButton"><img class="info-img"src="../img/info.svg" alt=""></button>
         </div>
         <h2>Clips and commentary of Dr. Andrew Huberman’s podcast, The Huberman Lab Podcast</h2>
         <h3>The podcast episode in discussion: "Dr. Gabrielle Lyon: How to Exercise & Eat for Optimal Health & Longevity"</h3>
@@ -43,6 +45,16 @@
         allowfullscreen>
         </iframe>
         <p class="section anecdote"><b>The bare minimum you need to be doing:</b> Eat 25+ grams of protein in the morning, walk 30 minutes a day x 5 days per week, and perform light training such as yoga or calisthenics twice a week.</p>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <div class="popup-header">
+                <h3>About</h3>
+                <button id="closePopup">Close</button>
+            </div>
+            <p>Here's the <a target="_blank" href="https://youtu.be/WFcYF_pxLgA?si=qKzhLQwPKuQHhEw-">link to the full podcast</a>. It's a great episode and Dr. Gabrielle Lyon does a fantastic job explaining the importance of a muscle and protein first approach towards health.</p>
+            <p>Flexbox was used for the layout of this post. It's certainly not my best exhibition of writing.</p>
+        </div>
     </div>
 </body>
 </html>

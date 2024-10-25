@@ -36,6 +36,7 @@ html{
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  margin: 2rem 0;
 }
 .row a{
   margin-left:.5em;
@@ -44,6 +45,7 @@ html{
   background-color: transparent;
   border: 0px;
   margin-right: .5em;
+  cursor: pointer;
 }
 h1, h3{
     color: #FF6613;
@@ -59,6 +61,7 @@ body{
     font-style: normal;
 }
 .container{
+    margin-bottom: 2rem;
     max-inline-size: clamp(45ch, 66ch, 75ch); 
     width: 80%;
     display: flex;
@@ -81,6 +84,9 @@ label{
 }
 iframe{
     margin-top: 1em;
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Adjust this ratio as needed */
+    height: auto;
 }
 .aside{
     color:#FF6613;

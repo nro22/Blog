@@ -8,13 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="popup.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
         <header>
             <a href="../index.html" class="start"><img src="../img/home.svg" alt=""></a>
             <h1>Post #02</h1>
-            <button class="info end"><img class="info-img"src="../img/info.svg" alt=""></button>
+            <button id="info" class="info end"><img class="info-img"src="../img/info.svg" alt=""></button>
         </header>
         <h2>Short videos and clips of an episode from Dr. Andrew Huberman's podcast</h2>
         <h3>Episode in discussion - Dr. Adam Grant: How to Unlock Your Potential, Motivation & Unique Abilities</h3>
@@ -67,6 +69,16 @@
                     </iframe>
                 </div>
             </div>
+        </div>
+    </div>
+    <div id="popup">
+        <div id="popup-content">
+            <div id="popup-header">
+                <h3>About</h3>
+                <button id="closePopup">Close</button>
+            </div>
+            <p>This layout of this post was created using both CSS Grid and CSS Flexbox for responsiveness</p>
+            <p>Here's the <a target="_blank" href="https://youtu.be/3gtvNYa3Nd8?si=9a3lBgj3asTTtMD1">link to the full episode</a></p>
         </div>
     </div>
 </body>
