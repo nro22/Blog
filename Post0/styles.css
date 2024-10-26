@@ -31,6 +31,7 @@ html{
     background-color: #FAF5EF;
     color: #674E2A;
 }
+/* BEGINNING OF HEADER STYLES */
 .row{
   display: flex;
   justify-content: space-between;
@@ -47,6 +48,16 @@ html{
   margin-right: .5em;
   cursor: pointer;
 }
+/* Custom header styles for page: */
+.home:hover,
+.info:hover{
+    background-color: rgba(200, 200, 200, 0.4);
+}
+.home,
+.info{
+    border-radius: 5px;
+}
+/* END OF HEADER STYLES */
 h1, h3{
     color: #FF6613;
 }

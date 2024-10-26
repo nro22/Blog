@@ -26,8 +26,13 @@
   justify-content: space-between;
 }
 
+#popup-header h3{
+  margin: 0;
+}
+
 #popup-content p {
   margin: 0;
+  padding-top: .25rem;
   text-indent: none;
 }
 
@@ -42,4 +47,12 @@
   
 #closePopup:hover {
   background-color: #d32f2f;
+}
+
+/*Custom styles for individual popup:*/
+#popup-header h3{
+  color: #3C7DA6;
+}
+#popup-content p{
+  color: #735B2F;
 }

@@ -44,6 +44,14 @@ header{
 .end{
     justify-self: end;
 }
+.home:hover,
+.info:hover{
+    background-color: rgba(255, 255, 255, .6);
+}
+.home,
+.info{
+    border-radius: 5px;
+}
 .info{
     background-color: transparent;
     border: 0px;

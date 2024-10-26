@@ -1,5 +1,5 @@
 Mobile first-responsive blog site developed from scratch
-Backrgound image for home page from Umit Bilut (ig: umitbu) via unsplash.com
+Backrgound image for home page from Umut Bilut (ig: umitbu) via unsplash.com
 ToDo
 -create a nav bar and link a funcitoning portfolio site as the home page
 -create a disclaimer popup for Post#01

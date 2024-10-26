@@ -16,6 +16,7 @@ body{
     max-inline-size: clamp(45ch,66ch,75ch);
     margin-bottom: 2em;
 }
+/* BEGINNING OF HEADER STYLES */
 .container{
     display: flex;
     justify-content: space-between;
@@ -33,18 +34,16 @@ a{
 .info:hover{
     cursor: pointer;
 }
-/* a{
-    width: 40%;
-} */
-/* .container a, .container h1{
-    margin-right: auto;
+/* Custom header styles for page: */
+.home:hover,
+.info:hover{
+    background-color: rgba(200, 200, 200, 0.4);
 }
-.container a{
-    margin-left: .5em;
+.home,
+.info{
+    border-radius: 5px;
 }
-.container h1{
-    padding-left: -28px;
-} */
+/* END OF HEADER STYLES */
 img{
     margin: 0 auto;
 }

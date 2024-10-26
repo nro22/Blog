@@ -7,14 +7,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@100;400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="popup.css">
+    <script src="script.js" defer></script>
+    <title>Post #03</title>
 </head>
 <body>
     <div class="content">
         <header>
-            <a href="../index.html"><img class="homeButton" src="../img/homeWhite.svg" alt=""></a>
+            <a class="home" href="../index.html"><img class="homeButton" src="../img/homeWhite.svg" alt=""></a>
             <h1>Post #03</h1>
-            <button class="info"><img class="info-img"src="../img/infoWhite.svg" alt=""></button>
+            <button id="info" class="info"><img class="info-img"src="../img/infoWhite.svg" alt=""></button>
         </header>
     
         <main>
@@ -52,6 +54,21 @@
                 </li>
             </ul>
         </main>
+    </div>
+    <div id="popup">
+        <div id="popup-content">
+            <div id="popup-header">
+                <h3>About</h3>
+                <button id="closePopup">Close</button>
+            </div>
+            <p>Not much to this post other than some experimenting with design themes. I went with a cyberpunk synthwave -esque theme.</p>
+            <p>Potential future features:</p>
+            <ul>
+                <li>Add background music to complement design theme</li>
+                <li>Change the darkness of backround image to have a lighter appearance and modify color themes accordingly</li>
+            </ul>
+            <p>Background image from user <a target="_blank" href="https://unsplash.com/@leyy">"Leyre"</a> via unsplash.com within licenscing agreement</p>
+        </div>
     </div>
 </body>
 </html>

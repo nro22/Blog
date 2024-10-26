@@ -28,7 +28,6 @@
 
 .popup-header h3 {
     margin: 0;
-    /* Ensure the h3 doesn't have any default margins */
 }
 
 #closePopup {
@@ -46,4 +45,8 @@
 
 #closePopup:hover {
     background-color: #d32f2f;
+}
+
+#umit-link{
+    text-decoration: underline;
 }
