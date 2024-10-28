@@ -16,7 +16,7 @@ body{
     color: #fff;
     font-family: "Roboto", system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 500;
-
+    font-size: 1.1rem;
     background-image: url("leyre.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,4 +99,9 @@ main h3{
     height: auto; /* Maintains the aspect ratio */
     display: block; /* Removes any default inline spacing */
     overflow: hidden; /* Ensures no overflow occurs */
+}
+@media (max-width: 850px){
+    body{
+        padding: 2rem 5% 3.5rem;
+    }
 }

@@ -33,6 +33,7 @@
   }
   .popup-content p {
     margin: 0;
+    padding-top: .5rem;
     text-indent: none;
   }
   #closePopup {
@@ -46,4 +47,19 @@
   
   #closePopup:hover {
     background-color: #d32f2f;
+  }
+
+  @media (max-width: 1000px) {
+    .popup-content {
+        width: 90%;
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+  
+    .popup-header {
+        top: 0;
+        background: white;
+        padding: 10px 0;
+        z-index: 1;
+    }
   }

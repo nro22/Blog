@@ -44,6 +44,8 @@ a{
     border-radius: 5px;
 }
 /* END OF HEADER STYLES */
+
+
 img{
     margin: 0 auto;
 }
@@ -73,6 +75,11 @@ p{
 .video{
     display: flex;
     justify-content: center;
+}
+iframe{
+    width: 100%;
+    aspect-ratio: 16 / 9; /* Adjust this ratio as needed */
+    height: auto;
 }
 .commentary{
     margin-top: 2em;

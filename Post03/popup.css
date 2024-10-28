@@ -11,6 +11,7 @@
   }
   
   #popup-content {
+    min-width: min(90%, 260px);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -32,7 +33,7 @@
   
   #popup-content p {
     margin: 0;
-    padding-top: .25rem;
+    padding-top: .5rem;
     text-indent: none;
   }
   
@@ -61,4 +62,20 @@
 #popup-content li{
   padding-top: .25rem;
   color: black;
+}
+
+@media (max-width: 1000px) {
+  #popup-content {
+      /* width: 90%; */
+      max-height: 80vh;
+      overflow-y: auto;
+      
+  }
+
+  #popup-header {
+      top: 0;
+      background: white;
+      padding: 10px 0;
+      z-index: 1;
+  }
 }
