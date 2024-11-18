@@ -58,6 +58,9 @@ h3{
 h2, h3, .description{
     text-align: center;
 }
+.disclaimer{
+    color: rgb(150, 150, 150);
+}
 p{
     text-indent: 25px;
     color:#674E2A;
