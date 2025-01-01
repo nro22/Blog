@@ -1,31 +1,18 @@
-document.addEventListener('DOMContentLoaded',function(){
-    const infoButton = document.getElementById("info");
-    const popup = document.getElementById("popup");
-    const closeButton = document.getElementById("closePopup")
+const infoButton = document.getElementById("info");
+const modalOuter = document.querySelector('.modal-outer');
 
-    // opens popup when info button clicked
-    infoButton.addEventListener('click', function(){
-        popup.style.display = 'block';
-    });
+infoButton.addEventListener('click', handleInfoButtonClick);
 
-    //unneccessary?
-    // closes popup when close button clicked
-    closeButton.addEventListener('click', function(){
-        popup.style.display = 'none';
-    });
+modalOuter.addEventListener('click', handleModalClick);
 
-    //closes popup if click occurrs outside of popup
+function handleInfoButtonClick(){
+    modalOuter.classList.add('open');
+}
 
-    window.addEventListener('click', function(event) {
-        if (event.target === popup) {
-            popup.style.display = 'none';
-        }
-    });
-
-    // window.addEventListener('click', function(event) {
-    //     if (!popup.contains(event.target) && event.target !== infoButton) {
-    //         popup.style.display = 'none';
-    //     }
-    // });
-
-});
+function handleModalClick(e){
+    const isOutside = !e.target.closest('.modal-inner');
+    const close = (e.target === document.getElementById("closePopup") );
+    if (isOutside || close) {
+        modalOuter.classList.remove('open');
+    }
+}
