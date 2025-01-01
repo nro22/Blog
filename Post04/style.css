@@ -16,7 +16,7 @@ body{
     line-height: 1.4;
 }
 .content{
-    max-width: max-content;
+    max-width: 700px;
     margin: 0 auto;
     padding: .5rem;
 }
@@ -55,28 +55,28 @@ header .info{
 /*Header styles custom for page:*/
 .home:hover,
 .info:hover{
-    background-color: rgba(255, 255, 255, .4);
+    background-color: rgba(165, 182, 203, .6);
 }
 header .home,
 header .info{
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, .6);
+    background-color: rgba(165, 182, 203, .4);
 }
 header h1{
 }
 /* END OF HEADER STYLES
 
 
-CUSTOM STYLES */
+CUSTOM CONTENT STYLES */
 html{    
     background-color: #FAF5EF;
 }
 .content{    
     border-radius: 25px;
-    border: 1px solid #A5B6CB;
+    border: 1px solid #a5b6cb;
 }
 h1{
-    color: #012858
+    color: #012858;
 }
 main h2{
     color: #012858;
