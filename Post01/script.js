@@ -1,3 +1,7 @@
+function disclaimer(){
+    const msg = document.querySelector('.disclaimer');
+    alert(msg.innerHTML);
+}
 document.addEventListener('DOMContentLoaded', function() {
     const infoButton = document.querySelector(".info");
     const popup = document.querySelector(".popup");
