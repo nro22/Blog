@@ -108,30 +108,18 @@ main .disclaimer{
 }
 /* Link styles: */
 main a {
-    color: #1a0dab;
+    color: rgba(121, 40, 0, .8);
     text-decoration: none;
-    border-bottom: 1px solid #ccc;
-    transition: color 0.2s, border-color 0.2s;
   }
 
   main a:visited {
-    color: #1a0dab; /* same as normal link */
+    color:rgba(121, 40, 0, .8);
   }
 
   main a:hover {
     color: #0056b3;
-    border-color: #0056b3;
   }
-
-  .external-link {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.25em;
-  }
-
-  .external-link svg {
-    width: 0.9em;
-    height: 0.9em;
-    fill: currentColor;
+  main a:hover img.external-link {
+    filter: brightness(0) saturate(100%) invert(20%) sepia(100%) saturate(600%) hue-rotate(200deg);
   }
   /* End of link styles */
