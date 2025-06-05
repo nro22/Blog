@@ -106,3 +106,32 @@ main .disclaimer{
         padding: 2rem 5% 3.5rem;
     }
 }
+/* Link styles: */
+main a {
+    color: #1a0dab;
+    text-decoration: none;
+    border-bottom: 1px solid #ccc;
+    transition: color 0.2s, border-color 0.2s;
+  }
+
+  main a:visited {
+    color: #1a0dab; /* same as normal link */
+  }
+
+  main a:hover {
+    color: #0056b3;
+    border-color: #0056b3;
+  }
+
+  .external-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25em;
+  }
+
+  .external-link svg {
+    width: 0.9em;
+    height: 0.9em;
+    fill: currentColor;
+  }
+  /* End of link styles */
